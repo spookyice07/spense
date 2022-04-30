@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-size: 19px;
+  color: rgb(66, 65, 65);
+  font-family: sans-serif serif;
+}
+.top-header header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.top-header .container {
+  width: 1100px;
+  margin: 0px auto;
+}
+.container {
+  width: 1100px;
+  margin: 0px auto;
+}
+.top-header {
+  background-color: rgb(224, 224, 224);
+  max-height: 70vh;
+}
+
+/*NavBar Section*/
+.top-header .container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.top-header .container .navbar ul {
+  list-style: none;
+  display: flex;
+}
+.top-header .container .navbar ul li {
+  margin-left: 20px;
+}
+.top-header .container .navbar h3 {
+  color: black;
+  font-weight: bold;
+}
+.top-header .container .navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top-header .container .navbar ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.top-header .container .navbar .innerlink {
+  display: flex;
+  margin-right: 280px;
+}
+.login-btn {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.login-btn li a {
+  color: white;
+}
+
+/*Contents*/
+.main-header {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  min-height: 70vh;
+}
+.side-img img {
+  width: 100%;
+}
+.side-img {
+  max-width: 400px;
+  position: relative;
+  top: -30px;
+}
+.top-header .container .main-header .written {
+  max-width: 550px;
+}
+.top-header .container .main-header .written h1 {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+.top-header .container .main-header .written p {
+  font-size: 18px;
+}
+.top-header .container .main-header .written ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.top-header .container .main-header .written ul {
+  line-height: 2;
+}
+.top-header .container .main-header .written ul li img {
+  margin-right: 12px;
+}
+.top-header .container .main-header .written .input-text {
+  width: 180px;
+  height: 47px;
+}
+.top-header .container .main-header .written form {
+  margin-top: 15px;
+}
+
+/*Company Logos*/
+.company .container .main-company img {
+  width: 100%;
+  margin-right: 43px;
+}
+.company .container .main-company {
+  width: 100px;
+  display: flex;
+  padding-top: 30px;
+}
+/*BUying-selling*/
+.buying {
+  background-color: rgb(224, 224, 224);
+  min-height: 30vh;
+}
+.buying-flex {
+  display: flex;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+.phone-img img {
+  width: 500px;
+  position: absolute;
+}
+.buying-written h1 {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+.buying-written {
+  line-height: 1.5;
+  width: 50%;
+}
+.buying-written p {
+  padding-bottom: 10px;
+}
+.buying-written a {
+  color: black;
+  font-weight: bold;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.text-editor .container {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+}
+.text-editor .container .amazing-content img {
+  width: 100%;
+}
+.text-editor .container .amazing-content {
+  width: 1200px;
+}
+.text-editor .container .text-text h1 {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+.text-editor .container .text-text {
+  margin-top: 80px;
+  line-height: 1.5;
+}
+.text-editor .container .text-text a {
+  color: black;
+  font-weight: bold;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+/*footer section*/
+.footer {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.footer .container .footer-info {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer-info h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+.footer .container .footer-info p {
+  font-size: 26px;
+}
+.footer .container .footer-info a {
+  color: grey;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 1.9;
+}
